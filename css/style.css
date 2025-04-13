@@ -297,6 +297,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-cover {
   height: 900px;
+  background-image:url(/../images/hero.jpg);
+  background-position: 50% 0;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -1181,7 +1183,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: rgba(248, 169, 123, 0.651);
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
