@@ -6,8 +6,7 @@
 
 		$(document).click(function (e) {
 	    var container = $("#fh5co-offcanvas, .js-fh5co-nav-toggle");
-	    if (!container.is(e.target) && container.has(e.target).length === 0) {
-
+	    if (!container.is(e.target) && container.has(e.target).length === 0 || e.target.className === 'navlink') {
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
